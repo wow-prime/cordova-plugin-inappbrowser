@@ -710,9 +710,10 @@ public class InAppBrowser extends CordovaPlugin {
                 actionButtonContainer.addView(back);
                 actionButtonContainer.addView(forward);
 
+                // Sulin:Remove actionButtonContainer, edittext
                 // Add the views to our toolbar
-                toolbar.addView(actionButtonContainer);
-                toolbar.addView(edittext);
+                // toolbar.addView(actionButtonContainer);
+                // toolbar.addView(edittext);
                 toolbar.addView(close);
 
                 // Don't add the toolbar if its been disabled
